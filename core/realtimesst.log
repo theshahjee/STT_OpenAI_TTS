@@ -1,0 +1,498 @@
+2024-10-03 12:30:47.636 - RealTimeSTT: root - INFO - Starting RealTimeSTT
+2024-10-03 12:30:47.639 - RealTimeSTT: root - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2024-10-03 12:30:47.640 - RealTimeSTT: root - INFO - Initializing WebRTC voice with Sensitivity 3
+2024-10-03 12:30:47.640 - RealTimeSTT: root - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2024-10-03 12:30:48.491 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg6
+2024-10-03 12:30:48.492 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "C:\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-10-03 12:30:48.495 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg5
+2024-10-03 12:30:48.496 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "C:\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-10-03 12:30:48.496 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg4
+2024-10-03 12:30:48.496 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "C:\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-10-03 12:30:48.496 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg
+2024-10-03 12:30:48.496 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2024-10-03 12:30:48.594 - RealTimeSTT: root - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2024-10-03 12:30:48.594 - RealTimeSTT: root - DEBUG - Starting realtime worker
+2024-10-03 12:30:48.595 - RealTimeSTT: root - DEBUG - Waiting for main transcription model to start
+2024-10-03 12:30:50.795 - RealTimeSTT: root - DEBUG - Main transcription model ready
+2024-10-03 12:30:50.795 - RealTimeSTT: root - DEBUG - RealtimeSTT initialization completed successfully
+2024-10-03 12:30:50.795 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:30:50.795 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:30:50.795 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-10-03 12:31:01.848 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:31:01.848 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:31:01.848 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-10-03 12:31:01.849 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:31:07.667 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:31:07.668 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:31:07.669 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:31:07.669 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:31:07.670 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:31:07.690 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:31:07.728 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:31:07.860 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:31:07.860 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:31:07.860 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'recording'
+2024-10-03 12:31:08.110 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-10-03 12:31:08.111 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.44 seconds
+2024-10-03 12:31:08.112 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: Hello, Doctor. I am having a..."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:31:08.129 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:31:08.129 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-03 12:31:08.268 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028B5B387C20>
+2024-10-03 12:31:08.268 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000028B5468FD50> server_hostname='api.openai.com' timeout=5.0
+2024-10-03 12:31:08.360 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028B5B387FB0>
+2024-10-03 12:31:08.360 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:31:08.361 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:31:08.361 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:31:08.361 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:31:08.361 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:31:09.627 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:31:09 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'755'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999439'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_09a20735f5f5b24cf28b8ce8c5a4bee3'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=_Gj3N1YwFG2i6XhkuTsPRhn79qKTpjp.FH4Nl.jiCEw-1727958669-1.0.1.1-IydF0lhNDTUl8uWWlbm4ykvZSm7csKl9e9IzVXpIJkc5ML_6wWoMnBUlBSGzQn456L0PUb5KWRbo3Xa63fp2fw; path=/; expires=Thu, 03-Oct-24 13:01:09 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=G3AJhPtICVbxtS8_idPJ92TyAYBx5e1O6OFEUu8ARmo-1727958669527-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf28d2cd19cd6-SIN'), (b'Content-Encoding', b'gzip')])
+2024-10-03 12:31:09.628 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:31:09.628 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:31:09.628 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:31:09.628 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:31:09.628 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:31:09.628 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Thu, 03 Oct 2024 12:31:09 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-b5vxdkodkzmlsdtxmmvcdsca'), ('openai-processing-ms', '755'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '10000000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '9999439'), ('x-ratelimit-reset-requests', '6ms'), ('x-ratelimit-reset-tokens', '3ms'), ('x-request-id', 'req_09a20735f5f5b24cf28b8ce8c5a4bee3'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=_Gj3N1YwFG2i6XhkuTsPRhn79qKTpjp.FH4Nl.jiCEw-1727958669-1.0.1.1-IydF0lhNDTUl8uWWlbm4ykvZSm7csKl9e9IzVXpIJkc5ML_6wWoMnBUlBSGzQn456L0PUb5KWRbo3Xa63fp2fw; path=/; expires=Thu, 03-Oct-24 13:01:09 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=G3AJhPtICVbxtS8_idPJ92TyAYBx5e1O6OFEUu8ARmo-1727958669527-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8cccf28d2cd19cd6-SIN'), ('content-encoding', 'gzip')])
+2024-10-03 12:31:09.628 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_09a20735f5f5b24cf28b8ce8c5a4bee3
+2024-10-03 12:31:09.629 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:31:09.630 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:31:10.674 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:31:10.674 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:31:10.674 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:31:10.674 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:31:10.674 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:31:10.687 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:31:10.735 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:31:10.860 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.18 seconds
+2024-10-03 12:31:10.861 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: Lot of headache from a past few days."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:31:10.861 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:31:10.861 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:31:10.861 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:31:10.861 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:31:10.862 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:31:10.862 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:31:12.609 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:31:12 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'1251'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999439'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_61b0ff1a5b1083940fddc1b82f81ade6'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf29ccb5b9cd6-SIN'), (b'Content-Encoding', b'gzip')])
+2024-10-03 12:31:12.610 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:31:12.610 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:31:12.610 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:31:12.610 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:31:12.610 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:31:12.610 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Oct 2024 12:31:12 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-b5vxdkodkzmlsdtxmmvcdsca', 'openai-processing-ms': '1251', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '10000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '9999439', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '3ms', 'x-request-id': 'req_61b0ff1a5b1083940fddc1b82f81ade6', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8cccf29ccb5b9cd6-SIN', 'content-encoding': 'gzip'})
+2024-10-03 12:31:12.610 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_61b0ff1a5b1083940fddc1b82f81ade6
+2024-10-03 12:31:12.610 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:31:12.610 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:31:12.610 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-10-03 12:31:19.694 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:31:19.694 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:31:19.694 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-10-03 12:31:19.696 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:31:21.046 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:31:21.046 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:31:21.046 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:31:21.046 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:31:21.046 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:31:21.046 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:31:21.047 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:31:21.397 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.35 seconds
+2024-10-03 12:31:21.399 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: Mr. Leo, yeah."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:31:21.399 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:31:21.399 - RealTimeSTT: httpcore.connection - DEBUG - close.started
+2024-10-03 12:31:21.399 - RealTimeSTT: httpcore.connection - DEBUG - close.complete
+2024-10-03 12:31:21.399 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-03 12:31:21.503 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.failed exception=KeyboardInterrupt()
+2024-10-03 12:31:27.375 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:31:27.375 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:31:27.375 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'recording'
+2024-10-03 12:32:54.476 - RealTimeSTT: root - INFO - Starting RealTimeSTT
+2024-10-03 12:32:54.478 - RealTimeSTT: root - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2024-10-03 12:32:54.481 - RealTimeSTT: root - INFO - Initializing WebRTC voice with Sensitivity 3
+2024-10-03 12:32:54.481 - RealTimeSTT: root - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2024-10-03 12:32:55.315 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg6
+2024-10-03 12:32:55.316 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "C:\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-10-03 12:32:55.317 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg5
+2024-10-03 12:32:55.317 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "C:\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-10-03 12:32:55.317 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg4
+2024-10-03 12:32:55.318 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "C:\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-10-03 12:32:55.318 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg
+2024-10-03 12:32:55.318 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RBTG V2\Desktop\AI VERTICALSOLS\STT\env\Lib\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2024-10-03 12:32:55.420 - RealTimeSTT: root - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2024-10-03 12:32:55.420 - RealTimeSTT: root - DEBUG - Starting realtime worker
+2024-10-03 12:32:55.421 - RealTimeSTT: root - DEBUG - Waiting for main transcription model to start
+2024-10-03 12:32:57.405 - RealTimeSTT: root - DEBUG - Main transcription model ready
+2024-10-03 12:32:57.406 - RealTimeSTT: root - DEBUG - RealtimeSTT initialization completed successfully
+2024-10-03 12:32:57.406 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:32:57.406 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:32:57.406 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-10-03 12:32:58.357 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:32:58.357 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:32:58.357 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-10-03 12:32:58.357 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:33:03.477 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:33:03.477 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:33:03.478 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:33:03.478 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:33:03.478 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:33:03.478 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:33:03.537 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:33:03.858 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.38 seconds
+2024-10-03 12:33:03.860 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: Hello doctor, I am having a lot of headache since 5 days."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:33:03.878 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:33:03.878 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-03 12:33:04.099 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B813527B60>
+2024-10-03 12:33:04.099 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B80C80FB50> server_hostname='api.openai.com' timeout=5.0
+2024-10-03 12:33:04.211 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B80C8696D0>
+2024-10-03 12:33:04.211 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:33:04.211 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:33:04.211 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:33:04.211 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:33:04.211 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:33:06.422 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:33:06 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'1597'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999434'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_30e48784827d6147f456195fdab2bb3b'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=GlwsjW.dCbw3jE5evH5ewKlfjixMnU.Hi.cdlsowZMc-1727958786-1.0.1.1-cm2pIJoC9OyZlnB.cqDSiu.7hdl74uxDbI.xzz9guzy9sef1jpSPrT8numq8tesrozXnVfrVv0wDmn5IBp89hA; path=/; expires=Thu, 03-Oct-24 13:03:06 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=VUGlryeBd9A.SOdP4RJ6D4Q55suMuDo.MU8Zw6uLT_k-1727958786242-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf561087ac601-KHI'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-03 12:33:06.422 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:33:06.422 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:33:06.426 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:33:06.426 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:33:06.426 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:33:06.427 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Thu, 03 Oct 2024 12:33:06 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-b5vxdkodkzmlsdtxmmvcdsca'), ('openai-processing-ms', '1597'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '10000000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '9999434'), ('x-ratelimit-reset-requests', '6ms'), ('x-ratelimit-reset-tokens', '3ms'), ('x-request-id', 'req_30e48784827d6147f456195fdab2bb3b'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=GlwsjW.dCbw3jE5evH5ewKlfjixMnU.Hi.cdlsowZMc-1727958786-1.0.1.1-cm2pIJoC9OyZlnB.cqDSiu.7hdl74uxDbI.xzz9guzy9sef1jpSPrT8numq8tesrozXnVfrVv0wDmn5IBp89hA; path=/; expires=Thu, 03-Oct-24 13:03:06 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=VUGlryeBd9A.SOdP4RJ6D4Q55suMuDo.MU8Zw6uLT_k-1727958786242-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8cccf561087ac601-KHI'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2024-10-03 12:33:06.427 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_30e48784827d6147f456195fdab2bb3b
+2024-10-03 12:33:06.430 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:33:06.430 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:33:06.430 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-10-03 12:33:10.008 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:33:10.008 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:33:10.009 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-10-03 12:33:10.009 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:33:14.874 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:33:14.874 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:33:14.874 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:33:14.874 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:33:14.874 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:33:14.890 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:33:14.935 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:33:15.057 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:33:15.057 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:33:15.057 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'recording'
+2024-10-03 12:33:15.081 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-10-03 12:33:15.081 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.21 seconds
+2024-10-03 12:33:15.083 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: Ah yeah my name is John and I am 25 years old."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:33:15.083 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:33:15.083 - RealTimeSTT: httpcore.connection - DEBUG - close.started
+2024-10-03 12:33:15.083 - RealTimeSTT: httpcore.connection - DEBUG - close.complete
+2024-10-03 12:33:15.083 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-03 12:33:15.310 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B81354CEC0>
+2024-10-03 12:33:15.310 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B80C80FB50> server_hostname='api.openai.com' timeout=5.0
+2024-10-03 12:33:15.422 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B80B58FAD0>
+2024-10-03 12:33:15.422 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:33:15.422 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:33:15.422 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:33:15.422 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:33:15.422 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:33:16.413 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:33:16 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'451'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999437'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_7fe6c429371fca2e34e85a2dcebeebb8'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf5a718e8285b-KHI'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-03 12:33:16.413 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:33:16.413 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:33:16.413 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:33:16.413 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:33:16.413 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:33:16.413 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Oct 2024 12:33:16 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-b5vxdkodkzmlsdtxmmvcdsca', 'openai-processing-ms': '451', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '10000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '9999437', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '3ms', 'x-request-id': 'req_7fe6c429371fca2e34e85a2dcebeebb8', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8cccf5a718e8285b-KHI', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-10-03 12:33:16.413 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_7fe6c429371fca2e34e85a2dcebeebb8
+2024-10-03 12:33:16.414 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:33:16.414 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:33:21.589 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:33:21.589 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:33:21.589 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:33:21.589 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:33:21.589 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:33:21.589 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:33:21.650 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:33:21.827 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.24 seconds
+2024-10-03 12:33:21.829 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: And I am having headache in complete head mostly on the left side of the head."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:33:21.829 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:33:21.829 - RealTimeSTT: httpcore.connection - DEBUG - close.started
+2024-10-03 12:33:21.829 - RealTimeSTT: httpcore.connection - DEBUG - close.complete
+2024-10-03 12:33:21.829 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-03 12:33:22.057 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B80C9247D0>
+2024-10-03 12:33:22.057 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B80C80FB50> server_hostname='api.openai.com' timeout=5.0
+2024-10-03 12:33:22.288 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B81356CC20>
+2024-10-03 12:33:22.288 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:33:22.288 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:33:22.288 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:33:22.289 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:33:22.289 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:33:24.331 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:33:24 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'1500'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999428'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_a9cb47ec74f6e882d2f4cfb4b65d0ff6'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf5d2488a020a-SIN'), (b'Content-Encoding', b'gzip')])
+2024-10-03 12:33:24.332 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:33:24.332 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:33:24.332 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:33:24.332 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:33:24.332 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:33:24.332 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Oct 2024 12:33:24 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-b5vxdkodkzmlsdtxmmvcdsca', 'openai-processing-ms': '1500', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '10000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '9999428', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '3ms', 'x-request-id': 'req_a9cb47ec74f6e882d2f4cfb4b65d0ff6', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8cccf5d2488a020a-SIN', 'content-encoding': 'gzip'})
+2024-10-03 12:33:24.332 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_a9cb47ec74f6e882d2f4cfb4b65d0ff6
+2024-10-03 12:33:24.333 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:33:24.333 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:33:24.333 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-10-03 12:33:34.135 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:33:34.135 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:33:34.135 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-10-03 12:33:34.135 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:33:52.055 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:33:52.055 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:33:52.057 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:33:52.057 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:33:52.058 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:33:52.077 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:33:52.117 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:33:52.496 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.44 seconds
+2024-10-03 12:33:52.497 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: No, I haven't tried any remedies or medicine as of yet, and when I use phone or laptop, it triggers and I am experiencing this headache on the left side of my head from 5 days. My age is 25 and my name is John, please help."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:33:52.498 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:33:52.498 - RealTimeSTT: httpcore.connection - DEBUG - close.started
+2024-10-03 12:33:52.498 - RealTimeSTT: httpcore.connection - DEBUG - close.complete
+2024-10-03 12:33:52.498 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-03 12:33:52.600 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B80C946F30>
+2024-10-03 12:33:52.600 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B80C80FB50> server_hostname='api.openai.com' timeout=5.0
+2024-10-03 12:33:52.669 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B81356EF30>
+2024-10-03 12:33:52.669 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:33:52.669 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:33:52.669 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:33:52.669 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:33:52.669 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:33:56.487 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:33:56 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'2985'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999392'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_da09486e1e181d42cdce78e3370c26db'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf68feec3c605-KHI'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-03 12:33:56.487 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:33:56.487 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:33:56.549 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:33:56.549 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:33:56.549 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:33:56.549 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Oct 2024 12:33:56 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-b5vxdkodkzmlsdtxmmvcdsca', 'openai-processing-ms': '2985', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '10000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '9999392', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '3ms', 'x-request-id': 'req_da09486e1e181d42cdce78e3370c26db', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8cccf68feec3c605-KHI', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-10-03 12:33:56.550 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_da09486e1e181d42cdce78e3370c26db
+2024-10-03 12:33:56.550 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:33:56.550 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:33:56.550 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-10-03 12:34:00.690 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:34:00.690 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:34:00.690 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-10-03 12:34:00.690 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:34:01.849 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:34:01.849 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:34:01.849 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:34:01.849 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:34:01.849 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:34:01.859 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:34:01.909 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:34:02.267 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.42 seconds
+2024-10-03 12:34:02.268 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: Galada."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:34:02.268 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:34:02.268 - RealTimeSTT: httpcore.connection - DEBUG - close.started
+2024-10-03 12:34:02.268 - RealTimeSTT: httpcore.connection - DEBUG - close.complete
+2024-10-03 12:34:02.268 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-03 12:34:02.414 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B81356D730>
+2024-10-03 12:34:02.414 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B80C80FB50> server_hostname='api.openai.com' timeout=5.0
+2024-10-03 12:34:02.574 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B81356D6D0>
+2024-10-03 12:34:02.574 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:34:02.574 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:34:02.574 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:34:02.574 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:34:02.574 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:34:03.916 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:34:03 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'830'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999446'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_ad9be6f28d71dc6b22680f4e5b3920db'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf6ce0ee4ce56-SIN'), (b'Content-Encoding', b'gzip')])
+2024-10-03 12:34:03.916 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:34:03.916 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:34:03.927 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:34:03.927 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:34:03.928 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:34:03.928 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Oct 2024 12:34:03 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-b5vxdkodkzmlsdtxmmvcdsca', 'openai-processing-ms': '830', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '10000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '9999446', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '3ms', 'x-request-id': 'req_ad9be6f28d71dc6b22680f4e5b3920db', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8cccf6ce0ee4ce56-SIN', 'content-encoding': 'gzip'})
+2024-10-03 12:34:03.928 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_ad9be6f28d71dc6b22680f4e5b3920db
+2024-10-03 12:34:03.928 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:34:03.928 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:34:03.928 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-10-03 12:34:05.617 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:34:05.617 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:34:05.617 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-10-03 12:34:05.617 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:34:08.949 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:34:08.949 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:34:08.950 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:34:08.950 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:34:08.950 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:34:08.950 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:34:09.009 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:34:09.116 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.17 seconds
+2024-10-03 12:34:09.118 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: Doctor, I think I will die."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:34:09.118 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:34:09.118 - RealTimeSTT: httpcore.connection - DEBUG - close.started
+2024-10-03 12:34:09.118 - RealTimeSTT: httpcore.connection - DEBUG - close.complete
+2024-10-03 12:34:09.118 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-03 12:34:09.428 - RealTimeSTT: httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B80C869B50>
+2024-10-03 12:34:09.428 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B80C80FB50> server_hostname='api.openai.com' timeout=5.0
+2024-10-03 12:34:09.457 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:34:09.457 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:34:09.457 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'recording'
+2024-10-03 12:34:09.460 - RealTimeSTT: httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B81354CF50>
+2024-10-03 12:34:09.460 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:34:09.460 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:34:09.460 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:34:09.460 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:34:09.460 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:34:11.438 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:34:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'767'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999440'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_fe083393a123807fd766b11b73ee20e8'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf6f8dd37c60d-KHI'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-03 12:34:11.438 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:34:11.438 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:34:11.438 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:34:11.438 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:34:11.438 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:34:11.438 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Oct 2024 12:34:11 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-b5vxdkodkzmlsdtxmmvcdsca', 'openai-processing-ms': '767', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '10000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '9999440', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '3ms', 'x-request-id': 'req_fe083393a123807fd766b11b73ee20e8', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8cccf6f8dd37c60d-KHI', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-10-03 12:34:11.439 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_fe083393a123807fd766b11b73ee20e8
+2024-10-03 12:34:11.439 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:34:11.439 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:34:12.089 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:34:12.089 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:34:12.089 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:34:12.089 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:34:12.089 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:34:12.100 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:34:12.149 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:34:12.263 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.17 seconds
+2024-10-03 12:34:12.264 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: I want you to do that."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:34:12.264 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:34:12.265 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:34:12.265 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:34:12.265 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:34:12.265 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:34:12.265 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:34:12.921 - RealTimeSTT: root - INFO - voice activity detected
+2024-10-03 12:34:12.921 - RealTimeSTT: root - INFO - recording started
+2024-10-03 12:34:12.921 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'recording'
+2024-10-03 12:34:13.503 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:34:13 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'809'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999442'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_07a8c292c83279fc5894d14113dafd93'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf70a5b7dc60d-KHI'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-03 12:34:13.504 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:34:13.504 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:34:13.504 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:34:13.504 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:34:13.504 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:34:13.504 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Oct 2024 12:34:13 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-b5vxdkodkzmlsdtxmmvcdsca', 'openai-processing-ms': '809', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '10000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '9999442', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '3ms', 'x-request-id': 'req_07a8c292c83279fc5894d14113dafd93', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8cccf70a5b7dc60d-KHI', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-10-03 12:34:13.504 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_07a8c292c83279fc5894d14113dafd93
+2024-10-03 12:34:13.504 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:34:13.504 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-10-03 12:34:16.569 - RealTimeSTT: root - INFO - recording stopped
+2024-10-03 12:34:16.569 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2024-10-03 12:34:16.570 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2024-10-03 12:34:16.570 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-10-03 12:34:16.570 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-10-03 12:34:16.574 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-10-03 12:34:16.629 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-10-03 12:34:16.801 - RealTimeSTT: root - DEBUG - Model tiny.en completed transcription in 0.23 seconds
+2024-10-03 12:34:16.802 - RealTimeSTT: openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a medical doctor providing consultations.'}, {'role': 'user', 'content': "\n        You are a medical doctor providing online consultations. Your task is to respond to users' health-related queries. \n        First, ask the user to provide essential details such as their name, age, specific symptoms, and duration of the issue. \n        Be mindful that the user's query may be converted from speech to text, so their input might have informal phrasing, errors, or lack punctuation. \n        After gathering these details, give a clear and thoughtful medical response based on the information provided.\n        \n\nUser Query: But don't worry if I die I'll take you all with me."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 400, 'temperature': 0.7}}
+2024-10-03 12:34:16.803 - RealTimeSTT: openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-10-03 12:34:16.803 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-03 12:34:16.803 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-03 12:34:16.803 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-03 12:34:16.803 - RealTimeSTT: httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-03 12:34:16.803 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-03 12:34:18.106 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 03 Oct 2024 12:34:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-b5vxdkodkzmlsdtxmmvcdsca'), (b'openai-processing-ms', b'769'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9999435'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'3ms'), (b'x-request-id', b'req_ed8774d5d3263820436992f5e5b3e72f'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cccf726bc59c60d-KHI'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-03 12:34:18.106 - RealTimeSTT: httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:34:18.106 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-03 12:34:18.106 - RealTimeSTT: httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-03 12:34:18.106 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.started
+2024-10-03 12:34:18.106 - RealTimeSTT: httpcore.http11 - DEBUG - response_closed.complete
+2024-10-03 12:34:18.106 - RealTimeSTT: openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Oct 2024 12:34:17 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-b5vxdkodkzmlsdtxmmvcdsca', 'openai-processing-ms': '769', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '10000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '9999435', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '3ms', 'x-request-id': 'req_ed8774d5d3263820436992f5e5b3e72f', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8cccf726bc59c60d-KHI', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-10-03 12:34:18.106 - RealTimeSTT: openai._base_client - DEBUG - request_id: req_ed8774d5d3263820436992f5e5b3e72f
+2024-10-03 12:34:18.107 - RealTimeSTT: root - INFO - Setting listen time
+2024-10-03 12:34:18.107 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-10-03 12:34:18.107 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-10-03 12:34:19.923 - RealTimeSTT: root - INFO - KeyboardInterrupt in wait_audio, shutting down
+2024-10-03 12:34:19.923 - RealTimeSTT: root - DEBUG - Finishing recording thread
+2024-10-03 12:34:19.938 - RealTimeSTT: root - DEBUG - Terminating reader process
+2024-10-03 12:34:19.985 - RealTimeSTT: root - DEBUG - Receive from stdout pipe
+2024-10-03 12:34:20.186 - RealTimeSTT: root - INFO - KeyboardInterrupt in text() method
+2024-10-03 12:34:25.490 - RealTimeSTT: httpcore.connection - DEBUG - close.started
+2024-10-03 12:34:25.491 - RealTimeSTT: httpcore.connection - DEBUG - close.complete
