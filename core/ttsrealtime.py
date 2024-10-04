@@ -1,15 +1,34 @@
 import torch
+import soundfile as sf
 
-# Load the TTS model
-model, _ = torch.hub.load(repo_or_dir='snakers4/silero-models', model='silero_tts', language='en', speaker='en_0')
 
-def text_to_speech(text):
-    # Ensure that the speaker is valid
-    available_speakers = model.available_speakers
-    print("Available speakers:", available_speakers)
-    
-    audio = model.apply_tts(text=text, speaker='v3_en')  # Use a valid speaker
-    return audio
+language = 'en'
+speaker = 'lj_16khz'
+device = torch.device('cuda')  
 
-sentence = "This is a sentence."
-audio_data = text_to_speech(sentence)
+
+model, symbols, sample_rate, example_text, apply_tts = torch.hub.load(
+    repo_or_dir='snakers4/silero-models', 
+    model='silero_tts', 
+    language=language, 
+    speaker=speaker
+)
+
+
+model = model.to(device)
+
+
+text = "Hello Motherfucker, how are you today? Thank you for reaching out. It seems like there might have been a mix-up in your message. If you have any health-related queries or concerns, please feel free to share them with me. It's important to provide details such as your name, age, specific symptoms, and how long you've been experiencing the issue so I can offer you the most appropriate medical advice."
+
+audio = apply_tts(
+    texts=[text], 
+    model=model,  
+    sample_rate=sample_rate,  
+    symbols=symbols, 
+    device=device  
+)
+
+
+# sf.write('output.wav', audio[0], sample_rate)  
+
+# print("TTS audio saved as 'output.wav'")

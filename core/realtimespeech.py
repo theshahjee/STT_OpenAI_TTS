@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     recorder = AudioToTextRecorder(
         spinner=False,
-        silero_sensitivity=0.2,
+        silero_sensitivity=0.5,
         model="tiny.en",
         language="en",
         device=device,
