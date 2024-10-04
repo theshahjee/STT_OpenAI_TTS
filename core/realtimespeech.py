@@ -18,7 +18,7 @@ if __name__ == '__main__':
         language="en",
         device=device,
     )
-
+    
     print("Say something...")
 
     try:
