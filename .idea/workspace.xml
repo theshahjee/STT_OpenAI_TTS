@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ab016b6e-8317-481c-8962-bb18c2b7a4b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.wav" beforeDir="false" afterPath="$PROJECT_DIR$/input.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openai_voice_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/openai_voice_interface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.wav" beforeDir="false" afterPath="$PROJECT_DIR$/output.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.wav" beforeDir="false" afterPath="$PROJECT_DIR$/temp.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +27,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Shah"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Shah&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
